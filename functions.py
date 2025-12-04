@@ -11,3 +11,11 @@ def sum ():
     print (f"the total is, {total} and values are {a}, {b} and {c}")
 
 sum()
+
+#using arguments
+def total (x,y,z):
+    total = x + y + z
+    print (f"the total is, {total} and values are {x}, {y} and {z}")
+
+
+total(2,6,4)    
